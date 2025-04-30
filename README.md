@@ -1,60 +1,92 @@
-# React + TypeScript + Vite
+# Social Media Application
+A modern social media application built with React, TypeScript, and Vite, featuring real-time interactions and a clean, responsive design.
 
-for running this social-media app probably is gonna be neccesary run:
-rm -rf node_modules pnpm-lock.yaml && pnpm install
-and then pnpm run dev
-
+Take a look of my small presentation I did for this project: 
 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://dojo-social-schema-hub.lovable.app
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Modern React with TypeScript for type safety
+- Vite for fast development and building
+- Tailwind CSS for styling
+- React Router for navigation
+- Supabase for backend services
+- React Query for data fetching and caching
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React 19
+- **Language:** TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **State Management:** React Query
+- **Backend:** Supabase
+- **Routing:** React Router DOM
+
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+- Node.js (LTS version recommended)
+- pnpm (Package Manager)
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd <project-directory>
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pnpm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   pnpm run dev
+   ```
+
+4. **Open in your browser**
+   - The application will be available at `http://localhost:5173` (or the next available port if 5173 is in use)
+
+## 📦 Available Scripts
+
+- `pnpm run dev` - Start the development server
+- `pnpm run build` - Build the application for production
+- `pnpm run preview` - Preview the production build locally
+- `pnpm run lint` - Run ESLint to check for code issues
+
+## 🔧 Configuration
+
+The project uses several configuration files:
+- `vite.config.ts` - Vite configuration
+- `tsconfig.json` - TypeScript configuration
+- `tailwind.config.js` - Tailwind CSS configuration
+- `eslint.config.js` - ESLint configuration
+
+## 📝 Project Structure
+
+```
+├── src/              # Source files
+├── public/           # Static assets
+├── dist/             # Production build
+├── node_modules/     # Dependencies
+└── package.json      # Project configuration
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🤝 Contributing
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
