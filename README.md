@@ -1,5 +1,11 @@
 # React + TypeScript + Vite
 
+for running this social-media app probably is gonna be neccesary run:
+rm -rf node_modules pnpm-lock.yaml && pnpm install
+and then pnpm run dev
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
