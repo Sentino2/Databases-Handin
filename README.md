@@ -3,6 +3,9 @@ A modern social media application built with React, TypeScript, and Vite, featur
 
 Take a look of my small presentation I did for this project: 
 
+here you will find the high level description about the project as well with the ER schema model
+
+⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
 
 https://dojo-social-schema-hub.lovable.app
 
